@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/main.cpp.o -c /home/qapeel/c++/test/main.cpp",
+  "file": "/home/qapeel/c++/test/main.cpp"
+},
+{
+  "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o -c /home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp",
+  "file": "/home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp"
+},
+{
+  "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o -c /home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp",
+  "file": "/home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp"
+}
+]

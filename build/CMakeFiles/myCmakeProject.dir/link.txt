@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/myCmakeProject.dir/main.cpp.o CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o -o myCmakeProject 
