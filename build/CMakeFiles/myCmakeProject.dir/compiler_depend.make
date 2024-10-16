@@ -366,9 +366,10 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../includes/DynamicArray/DynamicArray.h \
-  ../includes/LinkedList/LinkedList.h
+  ../includes/Stack/Stack.h
 
+
+../includes/Stack/Stack.h:
 
 ../main.cpp:
 
@@ -391,8 +392,6 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
-
-../includes/LinkedList/LinkedList.h:
 
 /usr/include/c++/11/stdexcept:
 

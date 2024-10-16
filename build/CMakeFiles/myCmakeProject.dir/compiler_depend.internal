@@ -369,6 +369,5 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
- /home/qapeel/c++/test/includes/DynamicArray/DynamicArray.h
- /home/qapeel/c++/test/includes/LinkedList/LinkedList.h
+ /home/qapeel/c++/test/includes/Stack/Stack.h
 

@@ -1,22 +1,19 @@
 #include <iostream>
 #include <string>
-#include "includes/DynamicArray/DynamicArray.h"
-#include "includes/LinkedList/LinkedList.h"
+#include "includes/Stack/Stack.h"
 using std::string;
 using std::cout;
 using std::cin;
 using std::endl;
 
 int main(){
-    linkedlist<string> l;
-    l.insertAtPosition("12", 1);
-    l.insertAtPosition("13", 2);
-    l.insertAtPosition("14", 3);
-    l.insertAtPosition("15", 4);
-    l.insertAtPosition("16", 5);
-    l.insertAtPosition("11", 1);
-    l.deleteFromPosition(3);
-    l.printList();
-    cout << "size = " << l.getListSize() << endl;
+    Stack <int> s;
+    s.push(15);
+    s.push(20);
+    s.push(30);
+    int y = 0;
+    s.pop(y);
+    cout << "popped value = " << y << endl;
+    s.printStack();
     return 0;
 }
