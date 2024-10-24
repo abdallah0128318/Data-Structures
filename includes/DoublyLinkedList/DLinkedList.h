@@ -60,19 +60,26 @@ public:
         }
     }
 
-    void deleteBegin(){
-        if(empty()){
-            cout << "List is Empty\n";
-            return;
-        }
-        else{
-            Node *temp = tail;
-            tail = tail->prev;
-            tail->next = nullptr;
-            delete temp;
-            size--;
-        }
+    void deleteBegin() {
+    if (empty()) {
+        cout << "List is Empty\n";
+        return;
     }
+
+    Node *temp = head;
+
+    // If there is only one node in the list
+    if (head == tail) {
+        head = tail = nullptr; // Update both head and tail to null
+    } else {
+        head = head->next;     // Move head to the next node
+        head->prev = nullptr;  // Update the new head's previous pointer
+    }
+
+    delete temp;
+    size--;
+}
+
 
 
     void deleteEnd(){
@@ -87,6 +94,47 @@ public:
             delete temp;
             size--;
         }
+    }
+
+
+    void deleteAtPosition(int position) {
+        // Check if the list is empty
+        if (empty()) {
+            cout << "List is Empty\n";
+            return;
+        }
+
+        // Check if the position is valid
+        if (position < 1 || position > size) {
+            cout << "Invalid position\n";
+            return;
+        }
+
+        // If the position is at the beginning, use deleteBegin
+        if (position == 1) {
+            deleteBegin();
+            return;
+        }
+
+        // If the position is at the end, use deleteEnd
+        if (position == size) {
+            deleteEnd();
+            return;
+        }
+
+        // Traverse to the node at the specified position
+        Node* temp = head;
+        for (int i = 1; i < position; ++i) {
+            temp = temp->next;
+        }
+
+        // Update links of the previous and next nodes
+        temp->prev->next = temp->next;
+        temp->next->prev = temp->prev;
+
+        // Delete the temp node
+        delete temp;
+        size--;
     }
 
 
