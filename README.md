@@ -29,37 +29,3 @@ To clone this repository and run the code locally, use the following commands:
 2. Run the following command to clone the repository:
    ```bash
    git clone https://github.com/your-username/data-structures-from-scratch.git
-
-
-
-## Navigate to the repository folder:
-```bash
-cd data-structures-from-scratch
-
-
-Compile and run any of the data structures files using a C++ compiler. For example:
-
-```bash
-g++ doubly_linked_list.cpp -o doubly_linked_list ./doubly_linked_list
-
-
-## License
-This project is open-source and available under the MIT License.
-```bash
-
-### Steps:
-- Replace `"https://github.com/your-username/data-structures-from-scratch.git"` with the actual link to your GitHub repository.
-- Add or modify the list of data structures based on what you've implemented.
-
-This will give a clear overview of the project, its purpose, and how others can clone it and contribute.
-
-
-
-
-
-
-
-
-
-
-
