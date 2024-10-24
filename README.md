@@ -29,3 +29,6 @@ To clone this repository and run the code locally, use the following commands:
 2. Run the following command to clone the repository:
    ```bash
    git clone https://github.com/your-username/data-structures-from-scratch.git
+
+```bash
+   I used CMake tools extension in this project.
