@@ -83,10 +83,24 @@ CMakeFiles/myCmakeProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/main.cpp -o CMakeFiles/myCmakeProject.dir/main.cpp.s
 
+CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/flags.make
+CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o: ../includes/DoublyLinkedList/DLinkedList.cpp
+CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o -MF CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o.d -o CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o -c /home/qapeel/c++/test/includes/DoublyLinkedList/DLinkedList.cpp
+
+CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qapeel/c++/test/includes/DoublyLinkedList/DLinkedList.cpp > CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.i
+
+CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/includes/DoublyLinkedList/DLinkedList.cpp -o CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.s
+
 CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o: CMakeFiles/myCmakeProject.dir/flags.make
 CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o: ../includes/DynamicArray/DynamicArray.cpp
 CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o: CMakeFiles/myCmakeProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o -MF CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o.d -o CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o -c /home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp
 
 CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.i: cmake_force
@@ -97,35 +111,53 @@ CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp -o CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.s
 
-CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/flags.make
-CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o: ../includes/LinkedList/LinkedList.cpp
-CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o -MF CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o.d -o CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o -c /home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp
+CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/flags.make
+CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o: ../includes/SinglyLinkedList/SLinkedList.cpp
+CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o: CMakeFiles/myCmakeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o -MF CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o.d -o CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o -c /home/qapeel/c++/test/includes/SinglyLinkedList/SLinkedList.cpp
 
-CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp > CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.i
+CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qapeel/c++/test/includes/SinglyLinkedList/SLinkedList.cpp > CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.i
 
-CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp -o CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.s
+CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/includes/SinglyLinkedList/SLinkedList.cpp -o CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.s
+
+CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o: CMakeFiles/myCmakeProject.dir/flags.make
+CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o: ../includes/Stack/Stack.cpp
+CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o: CMakeFiles/myCmakeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o -MF CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o.d -o CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o -c /home/qapeel/c++/test/includes/Stack/Stack.cpp
+
+CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qapeel/c++/test/includes/Stack/Stack.cpp > CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.i
+
+CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qapeel/c++/test/includes/Stack/Stack.cpp -o CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.s
 
 # Object files for target myCmakeProject
 myCmakeProject_OBJECTS = \
 "CMakeFiles/myCmakeProject.dir/main.cpp.o" \
+"CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o" \
 "CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o" \
-"CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o"
+"CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o" \
+"CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o"
 
 # External object files for target myCmakeProject
 myCmakeProject_EXTERNAL_OBJECTS =
 
 myCmakeProject: CMakeFiles/myCmakeProject.dir/main.cpp.o
+myCmakeProject: CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o
 myCmakeProject: CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o
-myCmakeProject: CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o
+myCmakeProject: CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o
+myCmakeProject: CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o
 myCmakeProject: CMakeFiles/myCmakeProject.dir/build.make
 myCmakeProject: CMakeFiles/myCmakeProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable myCmakeProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qapeel/c++/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable myCmakeProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myCmakeProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

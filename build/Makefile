@@ -503,6 +503,30 @@ myCmakeProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/build
 .PHONY : myCmakeProject/fast
 
+includes/DoublyLinkedList/DLinkedList.o: includes/DoublyLinkedList/DLinkedList.cpp.o
+.PHONY : includes/DoublyLinkedList/DLinkedList.o
+
+# target to build an object file
+includes/DoublyLinkedList/DLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o
+.PHONY : includes/DoublyLinkedList/DLinkedList.cpp.o
+
+includes/DoublyLinkedList/DLinkedList.i: includes/DoublyLinkedList/DLinkedList.cpp.i
+.PHONY : includes/DoublyLinkedList/DLinkedList.i
+
+# target to preprocess a source file
+includes/DoublyLinkedList/DLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.i
+.PHONY : includes/DoublyLinkedList/DLinkedList.cpp.i
+
+includes/DoublyLinkedList/DLinkedList.s: includes/DoublyLinkedList/DLinkedList.cpp.s
+.PHONY : includes/DoublyLinkedList/DLinkedList.s
+
+# target to generate assembly for a file
+includes/DoublyLinkedList/DLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.s
+.PHONY : includes/DoublyLinkedList/DLinkedList.cpp.s
+
 includes/DynamicArray/DynamicArray.o: includes/DynamicArray/DynamicArray.cpp.o
 .PHONY : includes/DynamicArray/DynamicArray.o
 
@@ -527,29 +551,53 @@ includes/DynamicArray/DynamicArray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.s
 .PHONY : includes/DynamicArray/DynamicArray.cpp.s
 
-includes/LinkedList/LinkedList.o: includes/LinkedList/LinkedList.cpp.o
-.PHONY : includes/LinkedList/LinkedList.o
+includes/SinglyLinkedList/SLinkedList.o: includes/SinglyLinkedList/SLinkedList.cpp.o
+.PHONY : includes/SinglyLinkedList/SLinkedList.o
 
 # target to build an object file
-includes/LinkedList/LinkedList.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o
-.PHONY : includes/LinkedList/LinkedList.cpp.o
+includes/SinglyLinkedList/SLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o
+.PHONY : includes/SinglyLinkedList/SLinkedList.cpp.o
 
-includes/LinkedList/LinkedList.i: includes/LinkedList/LinkedList.cpp.i
-.PHONY : includes/LinkedList/LinkedList.i
+includes/SinglyLinkedList/SLinkedList.i: includes/SinglyLinkedList/SLinkedList.cpp.i
+.PHONY : includes/SinglyLinkedList/SLinkedList.i
 
 # target to preprocess a source file
-includes/LinkedList/LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.i
-.PHONY : includes/LinkedList/LinkedList.cpp.i
+includes/SinglyLinkedList/SLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.i
+.PHONY : includes/SinglyLinkedList/SLinkedList.cpp.i
 
-includes/LinkedList/LinkedList.s: includes/LinkedList/LinkedList.cpp.s
-.PHONY : includes/LinkedList/LinkedList.s
+includes/SinglyLinkedList/SLinkedList.s: includes/SinglyLinkedList/SLinkedList.cpp.s
+.PHONY : includes/SinglyLinkedList/SLinkedList.s
 
 # target to generate assembly for a file
-includes/LinkedList/LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.s
-.PHONY : includes/LinkedList/LinkedList.cpp.s
+includes/SinglyLinkedList/SLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.s
+.PHONY : includes/SinglyLinkedList/SLinkedList.cpp.s
+
+includes/Stack/Stack.o: includes/Stack/Stack.cpp.o
+.PHONY : includes/Stack/Stack.o
+
+# target to build an object file
+includes/Stack/Stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o
+.PHONY : includes/Stack/Stack.cpp.o
+
+includes/Stack/Stack.i: includes/Stack/Stack.cpp.i
+.PHONY : includes/Stack/Stack.i
+
+# target to preprocess a source file
+includes/Stack/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.i
+.PHONY : includes/Stack/Stack.cpp.i
+
+includes/Stack/Stack.s: includes/Stack/Stack.cpp.s
+.PHONY : includes/Stack/Stack.s
+
+# target to generate assembly for a file
+includes/Stack/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.s
+.PHONY : includes/Stack/Stack.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -613,12 +661,18 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... myCmakeProject"
+	@echo "... includes/DoublyLinkedList/DLinkedList.o"
+	@echo "... includes/DoublyLinkedList/DLinkedList.i"
+	@echo "... includes/DoublyLinkedList/DLinkedList.s"
 	@echo "... includes/DynamicArray/DynamicArray.o"
 	@echo "... includes/DynamicArray/DynamicArray.i"
 	@echo "... includes/DynamicArray/DynamicArray.s"
-	@echo "... includes/LinkedList/LinkedList.o"
-	@echo "... includes/LinkedList/LinkedList.i"
-	@echo "... includes/LinkedList/LinkedList.s"
+	@echo "... includes/SinglyLinkedList/SLinkedList.o"
+	@echo "... includes/SinglyLinkedList/SLinkedList.i"
+	@echo "... includes/SinglyLinkedList/SLinkedList.s"
+	@echo "... includes/Stack/Stack.o"
+	@echo "... includes/Stack/Stack.i"
+	@echo "... includes/Stack/Stack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

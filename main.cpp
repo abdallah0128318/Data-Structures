@@ -1,19 +1,24 @@
 #include <iostream>
 #include <string>
-#include "includes/Stack/Stack.h"
+#include "includes/DoublyLinkedList/DLinkedList.h"
 using std::string;
 using std::cout;
 using std::cin;
 using std::endl;
 
 int main(){
-    Stack <int> s;
-    s.push(15);
-    s.push(20);
-    s.push(30);
-    int y = 0;
-    s.pop(y);
-    cout << "popped value = " << y << endl;
-    s.printStack();
+
+    DList<int> dl;
+    dl.insertBegin(15);
+    dl.insertBegin(20);
+    dl.insertBegin(30);
+    dl.insertEnd(10);
+    dl.insertEnd(5);
+    dl.deleteEnd();
+    dl.deleteBegin();
+
+    cout << "size = " << dl.getSize() << endl;
+    dl.printList();
+
     return 0;
 }

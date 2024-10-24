@@ -6,12 +6,22 @@
 },
 {
   "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/DoublyLinkedList/DLinkedList.cpp.o -c /home/qapeel/c++/test/includes/DoublyLinkedList/DLinkedList.cpp",
+  "file": "/home/qapeel/c++/test/includes/DoublyLinkedList/DLinkedList.cpp"
+},
+{
+  "directory": "/home/qapeel/c++/test/build",
   "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/DynamicArray/DynamicArray.cpp.o -c /home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp",
   "file": "/home/qapeel/c++/test/includes/DynamicArray/DynamicArray.cpp"
 },
 {
   "directory": "/home/qapeel/c++/test/build",
-  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/LinkedList/LinkedList.cpp.o -c /home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp",
-  "file": "/home/qapeel/c++/test/includes/LinkedList/LinkedList.cpp"
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o -c /home/qapeel/c++/test/includes/SinglyLinkedList/SLinkedList.cpp",
+  "file": "/home/qapeel/c++/test/includes/SinglyLinkedList/SLinkedList.cpp"
+},
+{
+  "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o -c /home/qapeel/c++/test/includes/Stack/Stack.cpp",
+  "file": "/home/qapeel/c++/test/includes/Stack/Stack.cpp"
 }
 ]
