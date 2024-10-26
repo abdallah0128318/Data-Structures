@@ -1,24 +1,23 @@
 #include <iostream>
 #include <string>
-#include "includes/DoublyLinkedList/DLinkedList.h"
+#include <list>
+#include "includes/queue/queue.h"
 using std::string;
 using std::cout;
 using std::cin;
 using std::endl;
+using std::list;
+using std::next;
 
 int main(){
-
-    DList<int> dl;
-    dl.insertBegin(5);
-    dl.insertBegin(10);
-    dl.insertBegin(15);
-    dl.insertBegin(20);
-    dl.insertBegin(30);
-
-    dl.deleteAtPosition(4);
-
-    cout << "size = " << dl.getSize() << endl;
-    dl.printList();
-
+    Queue<int> q;
+    q.enqueue(1);
+    q.enqueue(2);
+    q.enqueue(3);
+    q.enqueue(4);
+    q.dequeue();
+    q.dequeue();
+    // cout << q.getFront() << endl;
+    q.printQueue();
     return 0;
 }
