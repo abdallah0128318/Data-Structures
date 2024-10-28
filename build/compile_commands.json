@@ -23,5 +23,10 @@
   "directory": "/home/qapeel/c++/test/build",
   "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o -c /home/qapeel/c++/test/includes/Stack/Stack.cpp",
   "file": "/home/qapeel/c++/test/includes/Stack/Stack.cpp"
+},
+{
+  "directory": "/home/qapeel/c++/test/build",
+  "command": "/usr/bin/c++  -I/home/qapeel/c++/test/includes -g -o CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.o -c /home/qapeel/c++/test/includes/queue/queue.cpp",
+  "file": "/home/qapeel/c++/test/includes/queue/queue.cpp"
 }
 ]

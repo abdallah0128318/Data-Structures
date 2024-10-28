@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o.d"
   "CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o"
   "CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o.d"
+  "CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.o"
+  "CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.o.d"
   "CMakeFiles/myCmakeProject.dir/main.cpp.o"
   "CMakeFiles/myCmakeProject.dir/main.cpp.o.d"
   "myCmakeProject"

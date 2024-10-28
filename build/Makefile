@@ -599,6 +599,30 @@ includes/Stack/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.s
 .PHONY : includes/Stack/Stack.cpp.s
 
+includes/queue/queue.o: includes/queue/queue.cpp.o
+.PHONY : includes/queue/queue.o
+
+# target to build an object file
+includes/queue/queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.o
+.PHONY : includes/queue/queue.cpp.o
+
+includes/queue/queue.i: includes/queue/queue.cpp.i
+.PHONY : includes/queue/queue.i
+
+# target to preprocess a source file
+includes/queue/queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.i
+.PHONY : includes/queue/queue.cpp.i
+
+includes/queue/queue.s: includes/queue/queue.cpp.s
+.PHONY : includes/queue/queue.s
+
+# target to generate assembly for a file
+includes/queue/queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myCmakeProject.dir/build.make CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.s
+.PHONY : includes/queue/queue.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -673,6 +697,9 @@ help:
 	@echo "... includes/Stack/Stack.o"
 	@echo "... includes/Stack/Stack.i"
 	@echo "... includes/Stack/Stack.s"
+	@echo "... includes/queue/queue.o"
+	@echo "... includes/queue/queue.i"
+	@echo "... includes/queue/queue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

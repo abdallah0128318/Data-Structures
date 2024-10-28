@@ -192,6 +192,9 @@ CMakeFiles/myCmakeProject.dir/includes/SinglyLinkedList/SLinkedList.cpp.o: ../in
 CMakeFiles/myCmakeProject.dir/includes/Stack/Stack.cpp.o: ../includes/Stack/Stack.cpp \
   /usr/include/stdc-predef.h
 
+CMakeFiles/myCmakeProject.dir/includes/queue/queue.cpp.o: ../includes/queue/queue.cpp \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/iostream \
@@ -372,11 +375,18 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
   ../includes/queue/queue.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -400,9 +410,21 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/climits:
 
-/usr/include/c++/11/bits/stl_list.h:
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 ../main.cpp:
+
+../includes/queue/queue.cpp:
 
 ../includes/Stack/Stack.cpp:
 
@@ -417,8 +439,6 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/c++/11/bits/list.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
@@ -435,6 +455,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/stdexcept:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
 
@@ -470,8 +492,6 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
-
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -483,6 +503,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/string_view:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
@@ -513,8 +535,6 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/c++/11/list:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
@@ -584,6 +604,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/c++/11/deque:
+
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/c++/11/ios:
@@ -634,6 +656,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/stdc-predef.h:
 
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
 ../includes/DynamicArray/DynamicArray.cpp:
 
 /usr/include/c++/11/ext/new_allocator.h:
@@ -651,6 +675,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/queue:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -754,8 +780,6 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -771,6 +795,8 @@ CMakeFiles/myCmakeProject.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
