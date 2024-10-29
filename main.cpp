@@ -20,6 +20,5 @@ int main(){
     cout << "rear = " << dq.getRear() << endl;
     cout << "DQueue size = " << dq.getSize() << endl;
     dq.printDeque();
-
     return 0;
 }

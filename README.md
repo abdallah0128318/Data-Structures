@@ -22,6 +22,7 @@ As a software developer, it is crucial to have a solid understanding of fundamen
 - Doubly Linked List
 - LinkedStack: a stack using linked list
 - Queue : I built queue data structure using Linked list and circular array
+- Deque : This keyword 'Deque' stands for double-ended queue and the reason is you can insert and delete from both ends. So, you can think of it as a combination of stack and queue. alright! 
 - Dynamic Array (Vector): here I built a dynamic array aka resizable array using dynamic memory allocation.
 - Binary Search Tree
 - Hash Map (Dictionary)
